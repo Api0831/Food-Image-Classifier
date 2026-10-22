@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# Secrets
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+config.local.yaml
+
+# Editors / OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Local data and training outputs
+UECFOOD*/
+data/
+datasets/
+runs/
+wandb/
+*.zip
+*.7z
+*.rar
+*.log
+*.pth
+*.pt
+!models/food100.pt
+test.jpg
+
+# Personal academic documents
+*.docx
+*.pptx
+*.pdf
