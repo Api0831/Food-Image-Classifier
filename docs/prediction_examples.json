@@ -1,0 +1,80 @@
+[
+  {
+    "source": "test/rice/1.jpg",
+    "expected": "rice",
+    "top5": [
+      {
+        "class": "pork miso soup",
+        "confidence": 0.289507
+      },
+      {
+        "class": "rice",
+        "confidence": 0.277122
+      },
+      {
+        "class": "dipping noodles",
+        "confidence": 0.125077
+      },
+      {
+        "class": "miso soup",
+        "confidence": 0.092881
+      },
+      {
+        "class": "Japanese tofu and vegetable chowder",
+        "confidence": 0.034896
+      }
+    ]
+  },
+  {
+    "source": "test/sushi/10853.jpg",
+    "expected": "sushi",
+    "top5": [
+      {
+        "class": "sushi",
+        "confidence": 0.942956
+      },
+      {
+        "class": "sashimi",
+        "confidence": 0.041393
+      },
+      {
+        "class": "egg sunny-side up",
+        "confidence": 0.004542
+      },
+      {
+        "class": "egg roll",
+        "confidence": 0.002887
+      },
+      {
+        "class": "hamburger",
+        "confidence": 0.002586
+      }
+    ]
+  },
+  {
+    "source": "test/pizza/14405.jpg",
+    "expected": "pizza",
+    "top5": [
+      {
+        "class": "pizza",
+        "confidence": 0.99998
+      },
+      {
+        "class": "chip butty",
+        "confidence": 6e-06
+      },
+      {
+        "class": "gratin",
+        "confidence": 5e-06
+      },
+      {
+        "class": "hamburger",
+        "confidence": 4e-06
+      },
+      {
+        "class": "pizza toast",
+        "confidence": 2e-06
+      }
+    ]
+  }
+]

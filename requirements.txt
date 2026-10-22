@@ -1,0 +1,12 @@
+--extra-index-url https://download.pytorch.org/whl/cpu
+# Verified on Windows with Python 3.11.7; see docs/VERIFICATION.md
+streamlit==1.65.0
+ultralytics==8.4.183
+torch==2.7.1+cpu; sys_platform != "darwin"
+torch==2.7.1; sys_platform == "darwin"
+torchvision==0.22.1+cpu; sys_platform != "darwin"
+torchvision==0.22.1; sys_platform == "darwin"
+pillow==12.3.0
+numpy==2.4.6
+opencv-python==5.0.0.93
+pi-heif==1.4.0
